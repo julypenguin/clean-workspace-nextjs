@@ -1,0 +1,11 @@
+{
+  "name": "@app/ssg",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "serve out",
+    "postbuild": "npx next-sitemap --config next-sitemap.config.mjs && cp -r ./public/* ./out/"
+  }
+}

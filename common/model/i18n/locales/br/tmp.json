@@ -1,0 +1,423 @@
+{
+  "form": {
+    "register": {
+      "inviteCode": {
+        "label": "Referral code",
+        "placeholder": "Please enter referral code",
+        "errorMessage": {
+          "required": "This field is required",
+          "length": "The referred entered doesn't exist"
+        }
+      },
+      "userName": {
+        "label": "Member account",
+        "placeholder": "4 to 16 characters with english and numbers ",
+        "errorMessage": {
+          "required": "The account number cannot be empty",
+          "length": "4-16 character with english and numbners ",
+          "digitalAndLetter": "Account must be 4-16 characters and contain letter and numbers",
+          "repeat": "The account already exists"
+        }
+      },
+      "password": {
+        "label": "Log-in password",
+        "placeholder": "6 to 20 characters with english and numbers",
+        "errorMessage": {
+          "required": "The password can not be empty",
+          "length": "The password less than 6 then more than 20 numbers and english",
+          "digitalAndLetter": "The password less than 6 then more than 20 numbers and english"
+        }
+      },
+      "checkPassword": {
+        "label": "Confirm password",
+        "placeholder": "Please confirm password",
+        "errorMessage": {
+          "required": "This field is required",
+          "wrong": "The two password you entered are inconsistent"
+        }
+      },
+      "country": {
+        "label": "Country",
+        "placeholder": "Please select",
+        "errorMessage": {
+          "required": "This field is required"
+        }
+      },
+      "currency": {
+        "label": "Currency",
+        "placeholder": "Please select",
+        "errorMessage": {
+          "required": "This field is required"
+        }
+      },
+      "fullName": {
+        "label": "Real name",
+        "placeholder": "User name have to match bank account owner",
+        "errorMessage": {
+          "required": "This field is required"
+        }
+      },
+      "fundPwd": {
+        "label": "Withdrawal PIN",
+        "placeholder": "4 digit password",
+        "errorMessage": {
+          "required": "This field is required",
+          "length": "The Password you entered is incorrect"
+        }
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "Please enter phone number",
+        "errorMessage": {
+          "required": "This field is required",
+          "number": "Phone number formatted incorrectly"
+        }
+      },
+      "securityCode": {
+        "label": "SMS verification code",
+        "placeholder": "Please enter SMS verification code",
+        "errorMessage": {
+          "required": "This field is required",
+          "length": "SMS verification code incorrectly"
+        }
+      },
+      "city": {
+        "label": "City",
+        "placeholder": "Please enter city",
+        "errorMessage": {
+          "required": "This field is required",
+          "length": "The format of the city you entered is incorrect"
+        }
+      },
+      "province": {
+        "label": "Province",
+        "placeholder": "Please enter province",
+        "errorMessage": {
+          "required": "This field is required",
+          "length": "Province formatted incorrectly"
+        }
+      },
+      "zipCode": {
+        "label": "Postal code",
+        "placeholder": "Please enter Postal code",
+        "errorMessage": {
+          "required": "This field is required",
+          "length": "The format of the province you entered is incorrect"
+        }
+      },
+      "address": {
+        "label": "Address",
+        "placeholder": "Please enter Address",
+        "errorMessage": {
+          "required": "This field is required",
+          "length": "The format of the address you entered is incorrect"
+        }
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Please enter email",
+        "errorMessage": {
+          "required": "This field is required",
+          "email": "Email formatted incorrectly",
+          "length": "Email formatted incorrectly"
+        }
+      },
+      "qq": {
+        "label": "QQ account",
+        "placeholder": "Please enter QQ account",
+        "errorMessage": {
+          "required": "This field is required",
+          "length": "QQ account formatted incorrectly"
+        }
+      },
+      "wechat": {
+        "label": "Wechat ID",
+        "placeholder": "Please enter WeChat ID",
+        "errorMessage": {
+          "required": "This field is required",
+          "email": "Wechat ID formatted incorrectly"
+        }
+      },
+      "zalo": {
+        "label": "Zalo",
+        "placeholder": "Please enter Zalo account",
+        "errorMessage": {
+          "required": "This field is required",
+          "length": "Zalo account formatted incorrectly"
+        }
+      },
+      "facebook": {
+        "label": "Facebook",
+        "placeholder": "Please enter Facebook account",
+        "errorMessage": {
+          "required": "This field is required",
+          "email": "Facebook account formatted incorrectly"
+        }
+      },
+      "whatsapp": {
+        "label": "WhatsApp",
+        "placeholder": "Please enter WhatsApp account",
+        "errorMessage": {
+          "required": "This field is required",
+          "length": "WhatsApp account formatted incorrectly"
+        }
+      },
+      "telegram": {
+        "label": "Telegram",
+        "placeholder": "Please enter Telegram account",
+        "errorMessage": {
+          "required": "This field is required",
+          "length": "Telegram account formatted incorrectly"
+        }
+      },
+      "validCode": {
+        "label": "Verification Code",
+        "placeholder": "Enter code",
+        "errorMessage": {
+          "required": "This field is required",
+          "wrong": "Registration verification code incorrectly"
+        }
+      }
+    },
+    "login": {
+      "account": {
+        "label": "Member account",
+        "placeholder": "Enter account",
+        "errorMessage": {
+          "required": "The account number cannot be empty",
+          "digitalAndLetter": "Account must be 4-16 characters and contain letter and numbers"
+        }
+      },
+      "password": {
+        "label": "Log-in password",
+        "placeholder": "Enter password",
+        "errorMessage": {
+          "required": "The password can not be empty",
+          "digitalAndLetter": "The password less than 6 then more than 20 numbers and english"
+        }
+      },
+      "validCode": {
+        "label": "",
+        "placeholder": "Enter Code",
+        "errorMessage": {
+          "required": "The verification code can not be empty",
+          "wrong": "Wrong verification code"
+        }
+      }
+    }
+  },
+  "set-twitter": {
+    "label": "Twitter",
+    "placeholder": "Please enter Twitter ID"
+  },
+  "set-line": {
+    "label": "Line",
+    "placeholder": "Please enter Line ID"
+  },
+  "set-instagram": {
+    "label": "Instagram",
+    "placeholder": "Please enter Instagram ID",
+    "invalid": "Instagram ID formatted incorrectly"
+  },
+  "set-tiktok": {
+    "label": "Tiktok",
+    "placeholder": "Please enter Tiktok ID",
+    "invalid": "Tiktok ID formatted incorrectly"
+  },
+  "info": {
+    "user-id": "ID",
+    "avatar": "Profile Photo",
+    "need-fill": "Need to be completed",
+    "success": " Setting  successful"
+  },
+  "set-nickname": {
+    "label": "Nickname",
+    "placeholder": "characters"
+  },
+  "common": {
+    "form": {
+      "required": "This field is required",
+      "password-confirm": "Confirm Password",
+      "placeholder": "Please enter {0} {1}"
+    },
+    "play-type": {
+      "inPlay": {
+        "short": "In-Play"
+      }
+    },
+    "match": {
+      "out": "Outs"
+    }
+  },
+  "edit-password": {
+    "current-login-password": "Log-in password",
+    "current-withdraw-password": "Current withdrawal password",
+    "withdraw-password": "Withdraw Password",
+    "new-withdraw-password": "New withdrawal password",
+    "login-password": "Password",
+    "placeholder": {
+      "password-confirm": "Confirm Password",
+      "withdraw-password": "4 digit password"
+    }
+  },
+  "register": {
+    "input": {
+      "error": {
+        "password-confirm": "Password and confirm password don't match"
+      }
+    }
+  },
+  "selectFile": "Select file",
+  "funds-detail": {
+    "recharge-bank-transfer": "Bank Transfer",
+    "weixin-transfer": "Wechat transfer",
+    "alipay-transfer": "Alipay transfer",
+    "cft-transfer": "Tenpay transfer",
+    "payMaya-transfer": "MaYa",
+    "gcash-transfer": "GCash",
+    "grabPay-transfer": "Grabpay",
+    "admin-add-money": "Manual Deposit",
+    "betting-stations": "Outlets Deposit",
+    "momoPay": "MoMoPay",
+    "viettelPay": "ViettelPay",
+    "zaloPay": "ZaloPay",
+    "ewallet": "eWallet",
+    "recharge-success": "Success",
+    "recharge-fail": "Fail",
+    "withdraw-bank-transfer": "Bank",
+    "admin-sub-money": "Manual",
+    "crypto-transfer": "USDT",
+    "withdraw-ewallet-transfer": "eWallet",
+    "withdraw-betting-station": "Outlets Reserve",
+    "withdraw-betting-station-admin": "Outlets-Withdraw",
+    "withdraw-success": "Completed",
+    "withdraw-fail": "Failed",
+    "bill-items": {
+      "credit": "Credit"
+    },
+    "all-firm-type-in": "All in",
+    "all-firm-type-out": "All out",
+    "detail": {
+      "order-no": "Order ID",
+      "start-time": "Time",
+      "dialog-title": "Check details",
+      "rech-type": "Method",
+      "rech-money": "Amount",
+      "rebate-money": "Rebate amount",
+      "fee": "Fee",
+      "deduct-money": "Deduction",
+      "status": "Status",
+      "operator-time": "Checking time",
+      "remark": "Remarks"
+    },
+    "recharge-record": "Deposit Records",
+    "withdraw-record": "Withdrawal Records",
+    "transfer-record": "Conversion Record",
+    "red-env-record": "Lucky Money Records",
+    "bill-record": "Transactions History",
+    "red-env-amount": "Amount",
+    "red-env-types": {
+      "send-env": "Lucky money deliver system",
+      "receive-env": "Receive red envelopes"
+    }
+  },
+  "hall": {
+    "best-of-x": "Best of {0}"
+  },
+  "half": "Half",
+  "transfer": {
+    "platform": "platform",
+    "platform-balance": "Platform balance",
+    "detail": {
+      "firm-out": "Transfer out",
+      "firm-in": "Transfer into",
+      "transfer-money": "Amount",
+      "transfer-status": "Status",
+      "remark": "Remarks"
+    }
+  },
+  "login": {
+    "title": "Sign In",
+    "demo": "Trial"
+  },
+  "parlay": {
+    "2C1": {
+      "name": "Doubles"
+    },
+    "3C1": {
+      "name": "Trebles"
+    },
+    "4C1": {
+      "name": "4-Folds"
+    },
+    "5C1": {
+      "name": "5-Folds"
+    },
+    "6C1": {
+      "name": "6-Folds"
+    },
+    "7C1": {
+      "name": "7-Folds"
+    },
+    "8C1": {
+      "name": "8-Folds"
+    },
+    "9C1": {
+      "name": "9-Folds"
+    },
+    "10C1": {
+      "name": "10-Folds"
+    },
+    "3C4": {
+      "name": "Trixie"
+    },
+    "4C11": {
+      "name": "Yankee"
+    },
+    "5C26": {
+      "name": "Super Yankee"
+    },
+    "6C57": {
+      "name": "Heinz"
+    },
+    "7C120": {
+      "name": "Super Heinz"
+    },
+    "8C247": {
+      "name": "Goliath"
+    },
+    "9C502": {
+      "name": "Block (9)"
+    },
+    "10C1013": {
+      "name": "Block (10)"
+    }
+  },
+  "app": {
+    "menu-drawer": {
+      "publicity": {
+        "onbet-sports": "ON Sports"
+      }
+    }
+  },
+  "personal": {
+    "inviteFriend": {
+      "otherPC": "Other sports",
+      "vipLevel": "VIP level"
+    }
+  },
+  "home": {
+    "menu": {
+      "esports": "Esports",
+      "casino": "Casino",
+      "poker": "Poker",
+      "lottery": "Lottery",
+      "slot": "Slot",
+      "sabong": "Cockfighting",
+      "fishing": "Fishing"
+    }
+  },
+  "rain": {
+    "rainWillEnd": "Close countdown? Close countdown won't awarded luck money."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@app/common",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "npx jest --verbose --config=./script/config/jest.config.mjs",
+    "pbjs-prepare": "npm install protobufjs-cli protobufjs -g",
+    "proto": "npx pbjs -t json -o ./model/socket/assets/on-event.json ./model/socket/assets/on.proto",
+    "page": "node ../common/script/tools/create-page.mjs"
+  }
+}

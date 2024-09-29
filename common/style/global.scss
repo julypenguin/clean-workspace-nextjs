@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 1px;
+}
+
+body {
+  @apply overflow-x-hidden bg-background text-16 text-foreground;
+}
+
+* {
+  border-color: var(--border);
+  max-height: 99999px; // 解決輔助模式字體大小問題
+}
+
+// 移除按著藍底
+a,
+button,
+.shadcn-component {
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+// 禁止圖片被拖動
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+// Fix QQ Sougo UC 點擊 svg 報錯
+svg {
+  pointer-events: none;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+// 傳遞安全區間
+:root {
+  // CSS 預設
+  --area-top: env(safe-area-inset-top);
+  --area-bottom: env(safe-area-inset-bottom);
+  --area-left: env(safe-area-inset-left);
+  --area-right: env(safe-area-inset-right);
+
+  // 可以被覆蓋的安全範圍：例如 APP 傳遞等
+  --safe-top: env(safe-area-inset-top);
+  --safe-bottom: env(safe-area-inset-bottom);
+  --safe-left: env(safe-area-inset-left);
+  --safe-right: env(safe-area-inset-right);
+
+  // 螢幕尺寸
+  --svw: 100svw;
+  --svh: 100svh;
+}
+
+// 移除 input focus 時的藍色陰影
+input {
+  &:active,
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
